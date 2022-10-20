@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/rocknitive/zen-sidechain-truffle#readme",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
     "@truffle/hdwallet-provider": "^2.1.0"
   }
 }
