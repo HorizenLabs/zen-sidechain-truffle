@@ -44,7 +44,7 @@
 // require('dotenv').config();
 // const { MNEMONIC, PROJECT_ID } = process.env;
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
   /**
@@ -96,6 +96,14 @@ module.exports = {
     //   network_id: 2111,   // This network is yours, in the cloud.
     //   production: true    // Treats this network as if it was a public net. (default: false)
     // }
+    zen: {
+      provider: () => new HDWalletProvider({
+        mnemonic: "word1 ... word12",
+        providerOrUrl: "https://evm-tn-m2.horizenlabs.io/ethv1"
+      }),
+      network_id: 1661,
+      production: false
+    }
   },
 
   // Set default mocha options here, use special reporters, etc.

@@ -1,0 +1,26 @@
+{
+  "name": "zen-sidechain-truffle",
+  "version": "1.0.0",
+  "description": "Example project to use Truffle with the Zen EVM sidechain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocknitive/zen-sidechain-truffle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocknitive/zen-sidechain-truffle/issues"
+  },
+  "homepage": "https://github.com/rocknitive/zen-sidechain-truffle#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.0"
+  }
+}
